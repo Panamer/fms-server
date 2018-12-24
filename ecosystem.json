@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "front-monitor",
+      "script": "./bin/www",
+      "error_file": "./log/pm2/err.log",
+      "out_file": "./log/pm2/out.log",
+      "pid_file": "./log/pm2/pid.pid",
+      "combine_logs": false,
+      "env": {
+        "NODE_ENV": "testing"
+      }
+    }
+  ]
+}
