@@ -1,0 +1,22 @@
+{
+  "restartable":"rs",
+  "ignore":[
+    "public",
+    "node_modules"
+  ],
+  "verbose": true,
+  "execMap":{
+      "js": "node --harmony"
+  },
+  "events":{
+  },
+  "ext": "js json",
+  "watch":[
+    "./app"
+  ],
+  "env":{
+    "NODE_ENV": "development",
+    "PORT": "5000"
+  },
+  "legacy-watch":false
+}
